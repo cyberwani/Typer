@@ -1,0 +1,111 @@
+/*
+* Styles for Typer.js
+* It works best with a fixed width container
+*/
+
+.typerjs:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.typerjs{
+	zoom: 1;
+}
+
+.typerjs .text{
+	float: left;
+}
+
+.typerjs .typer{
+	background: #007dbe;
+	display: block;
+	width: 2px;
+	height: 35px;
+	margin: 2px 0 0 5px;
+	float: left;
+}
+
+.typerjs .animate{
+	-webkit-animation: flash 1s infinite;
+	-moz-animation: flash 1s infinite;
+	-ms-animation: flash 1s infinite;
+	-o-animation: flash 1s infinite;
+}
+
+@-webkit-keyframes flash {
+  0% {
+	opacity: 1;
+  }
+  49.99% {
+	opacity: 1;
+  }
+  50% {
+	opacity: 0;
+  }
+  99.99% {
+	opacity: 0;
+  }
+}
+
+@-moz-keyframes flash {
+  0% {
+	opacity: 1;
+  }
+  49.99% {
+	opacity: 1;
+  }
+  50% {
+	opacity: 0;
+  }
+  99.99% {
+	opacity: 0;
+  }
+}
+
+@-ms-keyframes flash {
+  0% {
+	opacity: 1;
+  }
+  49.99% {
+	opacity: 1;
+  }
+  50% {
+	opacity: 0;
+  }
+  99.99% {
+	opacity: 0;
+  }
+}
+
+@-o-keyframes flash {
+  0% {
+	opacity: 1;
+  }
+  49.99% {
+	opacity: 1;
+  }
+  50% {
+	opacity: 0;
+  }
+  99.99% {
+	opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0% {
+	opacity: 1;
+  }
+  49.99% {
+	opacity: 1;
+  }
+  50% {
+	opacity: 0;
+  }
+  99.99% {
+	opacity: 0;
+  }
+}
